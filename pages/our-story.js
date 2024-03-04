@@ -6,8 +6,22 @@ const OurStory = (props) => {
     <>
       <div className="our-story-container">
         <Head>
-          <title>Our-Story - Elecnovate</title>
-          <meta property="og:title" content="Our-Story - Elecnovate" />
+          <title>
+            Our-Story - Elevate Your Brand with Stunning Graphic Design |
+            Graphic Design
+          </title>
+          <meta
+            name="description"
+            content="Elevate your brand with our comprehensive solutions. From graphic designs and websites to captivating social media visuals we bring your vision to life."
+          />
+          <meta
+            property="og:title"
+            content="Our-Story -  Elevate Your Brand with Stunning Graphic Design | Graphic Design"
+          />
+          <meta
+            property="og:description"
+            content="Elevate your brand with captivating designs. 🚀 Offering expert Graphic Design, Social Media Creatives, UI/UX Excellence, and Seamless Website Design. Let's bring your ideas to life! 💡🎨"
+          />
         </Head>
         <div className="our-story-hero">
           <div className="our-story-container1">

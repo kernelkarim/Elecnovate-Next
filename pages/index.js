@@ -1,22 +1,29 @@
 import React from 'react'
 import Head from 'next/head'
 
-import Header from '../components/header'
-import FeatureCard11 from '../components/feature-card11'
-import FeatureCard4 from '../components/feature-card4'
-import GalleryCard1 from '../components/gallery-card1'
-import GalleryCard11 from '../components/gallery-card11'
-
 const Home = (props) => {
   return (
     <>
       <div className="home-container">
         <Head>
-          <title>Elecnovate</title>
-          <meta property="og:title" content="Elecnovate" />
+          <title>
+            {' '}
+            Elevate Your Brand with Stunning Graphic Design | Graphic Design
+          </title>
+          <meta
+            name="description"
+            content="Elevate your brand with our comprehensive solutions. From graphic designs and websites to captivating social media visuals we bring your vision to life."
+          />
+          <meta
+            property="og:title"
+            content=" Elevate Your Brand with Stunning Graphic Design | Graphic Design"
+          />
+          <meta
+            property="og:description"
+            content="Elevate your brand with captivating designs. 🚀 Offering expert Graphic Design, Social Media Creatives, UI/UX Excellence, and Seamless Website Design. Let's bring your ideas to life! 💡🎨"
+          />
         </Head>
-        <Header></Header>
-        <div className="home-hero">
+        <div className="home-sec1">
           <h1 className="home-text">Let&apos;s maintain visual harmony!</h1>
           <span className="home-text01">
             <span>
@@ -56,175 +63,120 @@ const Home = (props) => {
               </span>
             </span>
           </span>
-          <div className="home-btn-group">
+          <div className="home-sec1-btn-group">
             <button className="home-button button">Get Started</button>
             <button className="home-button1 button">Contact us</button>
           </div>
         </div>
-        <div className="home-hero1">
+        <div className="home-hero">
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1529859503572-5b9d1e68e952?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjYxODI1OTE&amp;ixlib=rb-1.2.1&amp;w=1500"
+            src="https://images.unsplash.com/photo-1588064643233-49210b27b82e?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDE3fHxmcmVlbGFuY2VyfGVufDB8fHx8MTcwOTM4MDY2N3ww&amp;ixlib=rb-4.0.3&amp;w=1500"
+            loading="lazy"
             className="home-image"
           />
-          <div className="home-container1">
+          <div className="home-container01">
             <h1 className="home-text08">Who we are?</h1>
             <p className="home-text09">
               <span>
-                We are Two passionate and versatile graphic designers with a
-                keen eye for aesthetics and a commitment to delivering visually
-                compelling solutions. With a background in
+                We are passionate and versatile graphic designers with a keen
+                eye for aesthetics and a commitment to delivering visually
+                compelling solutions.
                 <span
                   dangerouslySetInnerHTML={{
                     __html: ' ',
                   }}
                 />
               </span>
-              <span className="home-text11">
+              <br></br>
+              <span>
+                With a background in
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <span className="home-text13">
                 Graphic Design &amp; Web Design
               </span>
               <span>
                 , We try our best to bring a unique blend of creativity and
-                technical proficiency to every project. Whether it&apos;s
-                crafting engaging brand identities, designing captivating
-                marketing materials, or illustrating impactful visuals, our goal
-                is to transform ideas into visually stunning realities. Explore
-                our portfolio to discover the diverse range of projects that
-                showcase my skills, dedication, and love for the art of graphic
-                design.
+                technical proficiency to every project.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>
+                Whether it&apos;s crafting engaging brand identities, designing
+                captivating marketing materials, or illustrating impactful
+                visuals, our goal is to transform ideas into visually stunning
+                realities.
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: ' ',
+                  }}
+                />
+              </span>
+              <br></br>
+              <span>
+                Explore our portfolio to discover the diverse range of projects
+                that showcase my skills, dedication, and love for the art of
+                graphic design.
               </span>
             </p>
           </div>
         </div>
-        <div className="home-banner">
-          <h1 className="home-text13">Our Mission?</h1>
-          <p className="home-text14">
-            Our goal is to seamlessly integrate human-centered design principles
-            with the latest digital technologies, creating seamless and
-            transformative experiences for users around the world.
-          </p>
-          <span className="home-text15">
-            <span>
-              <span>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non
-                volutpat turpis.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
+        <div className="home-our-missio-sec">
+          <div className="home-container02">
+            <h1 className="home-text19">Our Mission</h1>
+            <span className="home-text20">
+              Our goal is to seamlessly integrate human-centered design
+              principles with the latest digital technologies, creating seamless
+              and transformative experiences for users around the world.
             </span>
-            <span>
-              <span>
-                Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <span>
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-            </span>
-          </span>
+            <button className="home-button2 button">Get Started</button>
+          </div>
+          <img
+            alt="Elecnovate Mission"
+            src="/Home/blue%203d%20modern%20freelancer%20tips%20checklist%20instagram%20post1-1500h.png"
+            loading="lazy"
+            className="home-image1"
+          />
         </div>
         <div className="home-features">
-          <h1 className="home-text22">Our services</h1>
-          <div className="home-container2">
-            <FeatureCard11
-              title="Logo &amp; Branding"
-              rootClassName="rootClassName"
-            ></FeatureCard11>
-            <FeatureCard11
-              title="Photo Editing"
-              rootClassName="rootClassName1"
-            ></FeatureCard11>
-            <FeatureCard11
-              title="Print Design"
-              rootClassName="rootClassName2"
-            ></FeatureCard11>
-            <FeatureCard11
-              title="Marketing and Advertising"
-              rootClassName="rootClassName3"
-            ></FeatureCard11>
-            <FeatureCard11
-              title="Print on Demand"
-              rootClassName="rootClassName7"
-            ></FeatureCard11>
-            <FeatureCard11
-              title="UI/UX Design"
-              rootClassName="rootClassName6"
-            ></FeatureCard11>
-            <FeatureCard11
-              title="Website Design"
-              rootClassName="rootClassName5"
-            ></FeatureCard11>
-            <FeatureCard11
-              title="Social Media Designing"
-              rootClassName="rootClassName4"
-            ></FeatureCard11>
-          </div>
+          <h1 className="home-text21">Our services</h1>
+          <div className="home-container03"></div>
         </div>
         <div className="home-features1">
-          <h1 className="home-text23">
+          <h1 className="home-text22">
             Grow Your Business with Full-Service Graphics Designing
           </h1>
           <div className="home-separator"></div>
-          <div className="home-container3">
-            <div className="home-container4">
-              <FeatureCard4
-                title="Flexible work life"
-                description="We operate beyond conventional hours; we work longer than normal. We know that the unexpected can happen, and we adapt accordingly."
-                rootClassName="rootClassName1"
-              ></FeatureCard4>
-              <FeatureCard4
-                title="Self-care &amp; wellness"
-                description="At Elecnovate, I prioritize self-care and wellness, promoting balance and personal growth."
-                rootClassName="rootClassName4"
-              ></FeatureCard4>
-              <FeatureCard4
-                title="Your future"
-                description="A world of endless possibilities waiting to be explored and embraced. Let's take this journey together, discover new possibilities."
-                rootClassName="rootClassName3"
-              ></FeatureCard4>
-              <FeatureCard4
-                title="A culture of belonging"
-                description="At Elecnovate, we value inclusiveness by valuing each team member and creating an environment of respect and collaboration. It boosts engagement, creativity and well-being."
-                rootClassName="rootClassName2"
-              ></FeatureCard4>
-            </div>
+          <div className="home-container04">
+            <div className="home-container05"></div>
             <img
               alt="image"
               src="/Home/graphics%20design%20services-500h.png"
-              className="home-image1"
+              className="home-image2"
             />
           </div>
         </div>
-        <div className="home-banner1">
-          <div className="home-container5">
-            <h1 className="home-text24">​Our Philosophy</h1>
-            <span className="home-text25">
-              <span className="home-text26">
+        <div className="home-banner">
+          <div className="home-container06">
+            <h1 className="home-text23">​Our Philosophy</h1>
+            <span className="home-text24">
+              <span className="home-text25">
                 ​At the core of our philosophy lies a deep reverence for
                 creativity, innovation, and human connection. We believe in the
                 power of design to transcend mere functionality, enriching lives
                 and sparking meaningful interactions.
               </span>
-              <br className="home-text27"></br>
-              <span className="home-text28">
+              <br className="home-text26"></br>
+              <span className="home-text27">
                 ​We champion a holistic approach that marries form with
                 function, aesthetics with usability, and emotion with
                 technology. Every project is a canvas where we blend artistry
@@ -246,103 +198,38 @@ const Home = (props) => {
                 />
               </span>
             </span>
-            <div className="home-container6"></div>
+            <div className="home-container07"></div>
           </div>
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1pbmltYWxpc20lMjB5ZWxsb3d8ZW58MHx8fHwxNjI2MTg0NjU3&amp;ixlib=rb-1.2.1&amp;w=1000"
-            className="home-image2"
+            src="/Home/elecnovate%20philosophy.svg"
+            className="home-image3"
           />
         </div>
-        <div className="home-gallery">
-          <GalleryCard1
-            title="Branding &amp; Strategy"
-            subtitle="Graphic Design"
-            rootClassName="rootClassName"
-          ></GalleryCard1>
-          <GalleryCard1
-            title="User Interface &amp; Experience"
-            imageSrc="https://images.unsplash.com/photo-1579551053957-ee77f9b970c7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ2fHx3b29kc3xlbnwwfHx8fDE2MjY0NDc1ODg&amp;ixlib=rb-1.2.1&amp;w=1000"
-            subtitle="Graphic Design"
-            rootClassName="rootClassName1"
-          ></GalleryCard1>
-          <GalleryCard1
-            title="Photo Editing"
-            imageSrc="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHdvb2RzfGVufDB8fHx8MTYyNjQ0NzU3Mw&amp;ixlib=rb-1.2.1&amp;w=1000"
-            subtitle="Graphic Design"
-            rootClassName="rootClassName2"
-          ></GalleryCard1>
-          <GalleryCard1
-            title="Marketing &amp; Advertising"
-            imageSrc="https://images.unsplash.com/photo-1439853949127-fa647821eba0?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE4fHxuYXR1cmV8ZW58MHx8fHwxNjI2NDQ3ODAw&amp;ixlib=rb-1.2.1&amp;w=1000"
-            subtitle="Graphic Design"
-            rootClassName="rootClassName3"
-          ></GalleryCard1>
-          <GalleryCard1
-            title="Print on Demand"
-            imageSrc="https://images.unsplash.com/photo-1529948723647-8b7bd77b441c?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDExfHxjbGlmZnxlbnwwfHx8fDE2MjY0NDc4MjQ&amp;ixlib=rb-1.2.1&amp;w=1000"
-            subtitle="Graphic Design"
-            rootClassName="rootClassName4"
-          ></GalleryCard1>
-          <GalleryCard1
-            title="Print Design"
-            imageSrc="https://images.unsplash.com/photo-1553570739-330b8db8a925?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxvY2VhbnxlbnwwfHx8fDE2MjY0NDc4ODQ&amp;ixlib=rb-1.2.1&amp;w=1000"
-            subtitle="Graphic Design"
-            rootClassName="rootClassName5"
-          ></GalleryCard1>
-          <GalleryCard11
-            title="Website Design"
-            imageSrc="https://images.unsplash.com/photo-1425913397330-cf8af2ff40a1?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDN8fHdvb2RzfGVufDB8fHx8MTYyNjQ0NzU3Mw&amp;ixlib=rb-1.2.1&amp;w=1000"
-            subtitle="Graphic Design"
-            rootClassName="rootClassName2"
-          ></GalleryCard11>
-          <GalleryCard11
-            title="Wordpress Design"
-            subtitle="Web Design"
-            rootClassName="rootClassName"
-          ></GalleryCard11>
-          <GalleryCard11
-            title="Social Media Design"
-            imageSrc="https://images.unsplash.com/photo-1579551053957-ee77f9b970c7?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDQ2fHx3b29kc3xlbnwwfHx8fDE2MjY0NDc1ODg&amp;ixlib=rb-1.2.1&amp;w=1000"
-            subtitle="Graphic Design"
-            rootClassName="rootClassName1"
-          ></GalleryCard11>
-        </div>
-        <div className="home-banner2">
-          <div className="home-container7">
-            <h1 className="home-text31">About us</h1>
-            <span className="home-text32">
-              <span>
-                <span>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  non volutpat turpis, ut tincidunt lectus. Mauris luctus
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <span>
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-              </span>
-              <span>
-                rutrum mi ut rhoncus. Integer in dignissim tortor, id egestas
-                ante. Proin at enim purus. Mauris ut felis nisi.
-              </span>
+        <div className="home-gallery"></div>
+        <div className="home-banner1">
+          <div className="home-container08">
+            <h1 className="home-text30">About us</h1>
+            <span className="home-text31">
+              At Elecnovate, we&apos;re not just a team of designers; we&apos;re
+              a collective passionate about redefining the design services
+              landscape. Our journey begins with a simple belief: every pixel,
+              every line, and every color has the potential to tell an
+              interesting story.
             </span>
-            <div className="home-container8">
-              <button className="home-button2 button">Subscribe</button>
+            <div className="home-container09">
+              <button className="home-button3 button">
+                <span>
+                  <span className="home-text33">Learn More</span>
+                  <br></br>
+                </span>
+              </button>
             </div>
           </div>
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fG1pbmltYWxpc20lMjB5ZWxsb3d8ZW58MHx8fHwxNjI2MTg0NjU3&amp;ixlib=rb-1.2.1&amp;w=1000"
-            className="home-image3"
+            src="https://images.unsplash.com/photo-1506097425191-7ad538b29cef?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fGdyYXBoaWMlMjBkZXNpZ3xlbnwwfHx8fDE3MDk0NDQxMjN8MA&amp;ixlib=rb-4.0.3&amp;w=300"
+            className="home-image4"
           />
         </div>
       </div>
@@ -357,7 +244,7 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: flex-start;
           }
-          .home-hero {
+          .home-sec1 {
             width: 100%;
             height: 752px;
             display: flex;
@@ -373,7 +260,7 @@ const Home = (props) => {
                 rgba(255, 76, 92, 0.8) 7.5%,
                 rgba(255, 177, 70, 0.8) 94.47%
               ),
-              url('/design%20graphic-1500h.jpg');
+              url('/Home/design%20graphic-1500h.jpg');
             background-position: top left, center;
           }
           .home-text {
@@ -385,7 +272,7 @@ const Home = (props) => {
             margin-top: var(--dl-space-space-twounits);
             margin-bottom: var(--dl-space-space-twounits);
           }
-          .home-btn-group {
+          .home-sec1-btn-group {
             display: flex;
             align-items: center;
             flex-direction: row;
@@ -419,7 +306,7 @@ const Home = (props) => {
           .home-button1:hover {
             transform: scale(1.02);
           }
-          .home-hero1 {
+          .home-hero {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-twounits);
@@ -433,7 +320,7 @@ const Home = (props) => {
             width: 25rem;
             object-fit: cover;
           }
-          .home-container1 {
+          .home-container01 {
             width: 979px;
             display: flex;
             margin-left: var(--dl-space-space-twounits);
@@ -450,36 +337,36 @@ const Home = (props) => {
             font-weight: 500;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-banner {
+          .home-our-missio-sec {
             width: 100%;
             display: flex;
+            padding: var(--dl-space-space-threeunits);
+            min-height: 80vh;
             align-items: center;
-            padding-top: var(--dl-space-space-fourunits);
-            padding-left: var(--dl-space-space-threeunits);
-            padding-right: var(--dl-space-space-threeunits);
             flex-direction: column;
-            padding-bottom: var(--dl-space-space-fourunits);
-            background-size: cover;
-            justify-content: space-between;
-            background-image: url('https://images.unsplash.com/photo-1485628390555-1a7bd503f9fe?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDE3fHxhcmNoaXRlY3R1cmUlMjBtaW5pbWFsfGVufDB8fHx8MTYyNjE4NDA0Mg&ixlib=rb-1.2.1&w=1500');
-            background-position: center;
+            justify-content: center;
           }
-          .home-text13 {
+          .home-container02 {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+          }
+          .home-text19 {
             font-size: 3rem;
-            text-align: center;
-            margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text14 {
-            font-size: 2rem;
-            text-align: center;
-            font-weight: 600;
-            margin-bottom: var(--dl-space-space-twounits);
-            letter-spacing: 2px;
+          .home-button2 {
+            transition: 0.3s;
+            padding-top: var(--dl-space-space-unit);
+            padding-left: var(--dl-space-space-twounits);
+            padding-right: var(--dl-space-space-twounits);
+            padding-bottom: var(--dl-space-space-unit);
           }
-          .home-text15 {
-            max-width: var(--dl-size-size-maxwidth);
-            text-align: center;
-            margin-bottom: var(--dl-space-space-twounits);
+          .home-button2:hover {
+            transform: scale(1.02);
+          }
+          .home-image1 {
+            width: 45rem;
+            margin-top: var(--dl-space-space-twounits);
           }
           .home-features {
             width: 100%;
@@ -488,11 +375,11 @@ const Home = (props) => {
             max-width: 90%;
             flex-direction: column;
           }
-          .home-text22 {
+          .home-text21 {
             font-size: 3rem;
             margin-bottom: var(--dl-space-space-threeunits);
           }
-          .home-container2 {
+          .home-container03 {
             flex: 0 0 auto;
             width: 100%;
             display: grid;
@@ -507,7 +394,7 @@ const Home = (props) => {
             max-width: 85%;
             flex-direction: column;
           }
-          .home-text23 {
+          .home-text22 {
             width: 1358px;
             font-size: 3rem;
             margin-bottom: var(--dl-space-space-twounits);
@@ -517,7 +404,7 @@ const Home = (props) => {
             height: 2px;
             background-color: var(--dl-color-gray-500);
           }
-          .home-container3 {
+          .home-container04 {
             flex: 0 0 auto;
             width: 100%;
             display: flex;
@@ -526,11 +413,11 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: space-between;
           }
-          .home-container4 {
+          .home-container05 {
             display: grid;
             grid-template-columns: 1fr 1fr;
           }
-          .home-image1 {
+          .home-image2 {
             width: 450px;
             height: 450px;
             object-fit: cover;
@@ -539,7 +426,7 @@ const Home = (props) => {
             border-radius: var(--dl-radius-radius-round);
             object-position: left;
           }
-          .home-banner1 {
+          .home-banner {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
@@ -547,7 +434,7 @@ const Home = (props) => {
             align-items: center;
             justify-content: space-between;
           }
-          .home-container5 {
+          .home-container06 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -555,15 +442,15 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-text24 {
+          .home-text23 {
             text-align: center;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text25 {
+          .home-text24 {
             margin-right: var(--dl-space-space-threeunits);
           }
-          .home-container6 {
+          .home-container07 {
             flex: 0 0 auto;
             width: 100%;
             border: 2px dashed rgba(120, 120, 120, 0.4);
@@ -574,7 +461,7 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .home-image2 {
+          .home-image3 {
             width: 300px;
             height: 300px;
             object-fit: cover;
@@ -585,10 +472,10 @@ const Home = (props) => {
             display: grid;
             padding: var(--dl-space-space-threeunits);
             grid-gap: var(--dl-space-space-unit);
-            max-width: var(--dl-size-size-maxwidth);
+            max-width: 80%;
             grid-template-columns: 1fr 1fr 1fr;
           }
-          .home-banner2 {
+          .home-banner1 {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-threeunits);
@@ -596,7 +483,7 @@ const Home = (props) => {
             align-items: center;
             justify-content: space-between;
           }
-          .home-container7 {
+          .home-container08 {
             width: 100%;
             display: flex;
             align-items: flex-start;
@@ -604,15 +491,15 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: space-between;
           }
-          .home-text31 {
+          .home-text30 {
             text-align: center;
             font-weight: 600;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text32 {
+          .home-text31 {
             margin-right: var(--dl-space-space-threeunits);
           }
-          .home-container8 {
+          .home-container09 {
             flex: 0 0 auto;
             width: 100%;
             height: auto;
@@ -622,45 +509,94 @@ const Home = (props) => {
             flex-direction: row;
             justify-content: flex-start;
           }
-          .home-button2 {
+          .home-button3 {
             font-size: 0.75rem;
             transition: 0.3s;
             margin-left: var(--dl-space-space-unit);
             border-color: var(--dl-color-gray-500);
           }
-          .home-button2:hover {
+          .home-button3:hover {
             color: var(--dl-color-gray-white);
             background-color: var(--dl-color-gray-black);
           }
-          .home-image3 {
+          .home-text33:hover {
+            color: var(--dl-color-gray-white);
+            background-color: var(--dl-color-gray-black);
+          }
+          .home-image4 {
             width: 300px;
             height: 300px;
             object-fit: cover;
             flex-shrink: 0;
           }
           @media (max-width: 1600px) {
-            .home-hero1 {
-              max-width: 90%;
+            .home-sec1 {
+              background-position: top left, center;
+            }
+            .home-hero {
+              max-width: 100%;
+              background-color: #f4f1de;
+            }
+            .home-image {
+              width: 30%;
+              height: 578px;
+              border-radius: var(--dl-radius-radius-radius8);
+            }
+            .home-container01 {
+              width: 100%;
             }
             .home-text08 {
               font-size: 3rem;
+              animation-name: fadeInDown;
+              animation-delay: 0s;
+              animation-duration: 5000ms;
+              animation-direction: normal;
+              animation-iteration-count: 1;
+              animation-timing-function: linear;
             }
             .home-text09 {
               width: 100%;
-              font-size: 30px;
+              font-size: 32px;
+              align-self: center;
               font-style: inherit;
+              font-family: PT Sans;
               font-weight: 400;
+              animation-name: fadeIn;
+              animation-delay: 1s;
+              animation-duration: 2s;
+              animation-iteration-count: 1;
+              animation-timing-function: ease;
             }
-            .home-text11 {
+            .home-text13 {
               font-weight: 700;
             }
-            .home-text14 {
-              font-size: 2rem;
-              font-style: normal;
-              font-weight: 400;
-              letter-spacing: 2px;
+            .home-our-missio-sec {
+              height: 755px;
             }
-            .home-text23 {
+            .home-text19 {
+              color: #000000;
+              font-size: 3rem;
+            }
+            .home-text20 {
+              color: #000000;
+              width: 100%;
+              font-size: 30px;
+              align-self: center;
+              text-align: center;
+              margin-bottom: var(--dl-space-space-oneandhalfunits);
+            }
+            .home-button2 {
+              display: none;
+            }
+            .home-features {
+              max-width: 100%;
+              background-color: #e07a5f;
+            }
+            .home-text21 {
+              color: #ffffff;
+              align-self: center;
+            }
+            .home-text22 {
               width: 100%;
               font-size: 45px;
               align-self: center;
@@ -668,20 +604,33 @@ const Home = (props) => {
               text-align: center;
               font-weight: 700;
             }
-            .home-text24 {
+            .home-banner {
+              background-color: #3d405b;
+            }
+            .home-text23 {
+              color: #ffffff;
               width: 100%;
               align-self: flex-start;
               text-align: left;
             }
-            .home-text25 {
+            .home-text24 {
+              color: #ffffff;
               width: 100%;
               font-size: 27px;
+              font-family: Noto Sans Mono;
             }
-            .home-banner2 {
+            .home-banner1 {
               max-width: 100%;
             }
-            .home-text31 {
+            .home-text30 {
               font-weight: 600;
+            }
+            .home-button3 {
+              font-size: 0.75rem;
+              margin-left: 0px;
+            }
+            .home-image4 {
+              border-radius: 16px;
             }
           }
           @media (max-width: 1200px) {
@@ -689,7 +638,7 @@ const Home = (props) => {
               width: 412px;
               height: 511px;
             }
-            .home-container1 {
+            .home-container01 {
               position: relative;
             }
             .home-text09 {
@@ -698,26 +647,20 @@ const Home = (props) => {
               font-style: normal;
               font-weight: 500;
             }
-            .home-text13 {
-              font-size: 3rem;
-            }
-            .home-text14 {
-              font-size: 2rem;
-              text-align: left;
-              font-weight: 600;
-              letter-spacing: 2px;
-            }
             .home-features1 {
               max-width: 90%;
             }
-            .home-text23 {
+            .home-text22 {
               width: 100%;
             }
-            .home-text24 {
+            .home-text23 {
               font-weight: 600;
             }
-            .home-text25 {
+            .home-text24 {
               font-size: 27px;
+            }
+            .home-text25 {
+              font-size: 19px;
             }
             .home-text26 {
               font-size: 19px;
@@ -725,12 +668,9 @@ const Home = (props) => {
             .home-text27 {
               font-size: 19px;
             }
-            .home-text28 {
-              font-size: 19px;
-            }
           }
           @media (max-width: 991px) {
-            .home-hero {
+            .home-sec1 {
               flex-direction: column;
             }
             .home-text {
@@ -739,14 +679,15 @@ const Home = (props) => {
             .home-text01 {
               text-align: center;
             }
-            .home-hero1 {
+            .home-hero {
               padding: var(--dl-space-space-threeunits);
               flex-direction: column;
             }
             .home-image {
               order: 2;
             }
-            .home-container1 {
+            .home-container01 {
+              width: 100%;
               align-items: center;
               margin-left: 0px;
               margin-right: 0px;
@@ -756,85 +697,96 @@ const Home = (props) => {
               text-align: center;
             }
             .home-text09 {
-              width: 80%;
+              width: 85%;
               text-align: justify;
             }
-            .home-text15 {
-              width: 100%;
+            .home-our-missio-sec {
+              flex-direction: column;
             }
-            .home-text22 {
+            .home-container02 {
+              align-items: center;
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-twounits);
+            }
+            .home-text19 {
+              text-align: center;
+            }
+            .home-image1 {
+              width: 80%;
+            }
+            .home-text21 {
               align-self: center;
             }
-            .home-container2 {
+            .home-container03 {
               grid-template-columns: 1fr 1fr;
             }
             .home-features1 {
               align-items: center;
             }
-            .home-container3 {
+            .home-container04 {
               flex-direction: column;
             }
-            .home-image1 {
+            .home-image2 {
               width: 300px;
               height: 300px;
               margin-top: var(--dl-space-space-twounits);
               margin-left: 0px;
             }
-            .home-banner1 {
+            .home-banner {
               flex-direction: column;
             }
-            .home-container5 {
+            .home-container06 {
               align-items: center;
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-threeunits);
             }
-            .home-text25 {
+            .home-text24 {
               text-align: center;
               margin-left: var(--dl-space-space-threeunits);
             }
-            .home-container6 {
-              justify-content: center;
-            }
-            .home-image2 {
-              width: var(--dl-size-size-xxlarge);
-              height: var(--dl-size-size-xxlarge);
-            }
-            .home-gallery {
-              grid-template-columns: 1fr 1fr;
-            }
-            .home-banner2 {
-              flex-direction: column;
-            }
-            .home-container7 {
-              align-items: center;
-              margin-right: 0px;
-              margin-bottom: var(--dl-space-space-threeunits);
-            }
-            .home-text32 {
-              text-align: center;
-              margin-left: var(--dl-space-space-threeunits);
-            }
-            .home-container8 {
+            .home-container07 {
               justify-content: center;
             }
             .home-image3 {
               width: var(--dl-size-size-xxlarge);
               height: var(--dl-size-size-xxlarge);
             }
+            .home-gallery {
+              grid-template-columns: 1fr 1fr;
+            }
+            .home-banner1 {
+              flex-direction: column;
+            }
+            .home-container08 {
+              align-items: center;
+              margin-right: 0px;
+              margin-bottom: var(--dl-space-space-threeunits);
+            }
+            .home-text31 {
+              text-align: center;
+              margin-left: var(--dl-space-space-threeunits);
+            }
+            .home-container09 {
+              justify-content: center;
+            }
+            .home-image4 {
+              width: var(--dl-size-size-xxlarge);
+              height: var(--dl-size-size-xxlarge);
+            }
           }
           @media (max-width: 767px) {
-            .home-hero {
+            .home-sec1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-hero1 {
+            .home-hero {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
             .home-image {
               width: 80%;
             }
-            .home-container1 {
+            .home-container01 {
               width: 100%;
             }
             .home-text09 {
@@ -843,13 +795,9 @@ const Home = (props) => {
               font-style: normal;
               font-weight: 500;
             }
-            .home-banner {
+            .home-our-missio-sec {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
-            }
-            .home-text15 {
-              padding-left: var(--dl-space-space-unit);
-              padding-right: var(--dl-space-space-unit);
             }
             .home-features {
               padding-left: var(--dl-space-space-twounits);
@@ -859,17 +807,17 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text23 {
+            .home-text22 {
               text-align: center;
             }
-            .home-container3 {
+            .home-container04 {
               flex-direction: column;
             }
-            .home-banner1 {
+            .home-banner {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text25 {
+            .home-text24 {
               margin-left: var(--dl-space-space-unit);
               margin-right: var(--dl-space-space-unit);
             }
@@ -877,17 +825,17 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-banner2 {
+            .home-banner1 {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
             }
-            .home-text32 {
+            .home-text31 {
               margin-left: var(--dl-space-space-unit);
               margin-right: var(--dl-space-space-unit);
             }
           }
           @media (max-width: 576px) {
-            .home-hero {
+            .home-sec1 {
               width: 100%;
               padding: var(--dl-space-space-twounits);
               align-self: flex-start;
@@ -895,20 +843,20 @@ const Home = (props) => {
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
             }
-            .home-btn-group {
+            .home-sec1-btn-group {
               flex-direction: column;
             }
             .home-button1 {
               margin-top: var(--dl-space-space-unit);
               margin-left: 0px;
             }
-            .home-hero1 {
+            .home-hero {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-container1 {
+            .home-container01 {
               width: 100%;
               margin-bottom: var(--dl-space-space-unit);
             }
@@ -926,7 +874,7 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-container2 {
+            .home-container03 {
               grid-gap: var(--dl-space-space-halfunit);
             }
             .home-features1 {
@@ -935,38 +883,45 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-container4 {
+            .home-container05 {
               grid-template-columns: 1fr;
             }
-            .home-image1 {
+            .home-image2 {
               width: 250px;
               height: 250px;
             }
-            .home-banner1 {
+            .home-banner {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-text25 {
+            .home-text24 {
               width: 90%;
               text-align: justify;
             }
-            .home-container6 {
+            .home-container07 {
               align-items: center;
               flex-direction: column;
             }
-            .home-image2 {
+            .home-image3 {
               width: var(--dl-size-size-xlarge);
               height: var(--dl-size-size-xlarge);
             }
           }
           @media (max-width: 479px) {
-            .home-banner {
-              padding-top: var(--dl-space-space-threeunits);
+            .home-our-missio-sec {
+              padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
-              padding-bottom: var(--dl-space-space-threeunits);
+              padding-bottom: var(--dl-space-space-twounits);
+            }
+            .home-container02 {
+              margin-bottom: var(--dl-space-space-unit);
+            }
+            .home-button2 {
+              margin-top: var(--dl-space-space-unit);
+              margin-left: 0px;
             }
             .home-gallery {
               padding-top: var(--dl-space-space-twounits);
@@ -974,21 +929,25 @@ const Home = (props) => {
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-banner2 {
+            .home-banner1 {
               padding-top: var(--dl-space-space-twounits);
               padding-left: var(--dl-space-space-unit);
               padding-right: var(--dl-space-space-unit);
               padding-bottom: var(--dl-space-space-twounits);
             }
-            .home-container8 {
+            .home-container09 {
               align-items: center;
               flex-direction: column;
             }
-            .home-button2 {
+            .home-button3 {
               margin-top: var(--dl-space-space-unit);
               margin-left: 0px;
             }
-            .home-image3 {
+            .home-text33 {
+              margin-top: var(--dl-space-space-unit);
+              margin-left: 0px;
+            }
+            .home-image4 {
               width: var(--dl-size-size-xlarge);
               height: var(--dl-size-size-xlarge);
             }

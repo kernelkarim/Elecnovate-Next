@@ -17,7 +17,6 @@ const TestimonialCard1 = (props) => {
         <div className="testimonial-card1-testimonial">
           <span className="testimonial-card1-text">{props.quote}</span>
           <span className="testimonial-card1-text1">{props.name}</span>
-          <span className="testimonial-card1-text2">{props.role}</span>
           <img
             alt={props.pictureAlt}
             src={props.pictureSrc}
@@ -49,19 +48,15 @@ const TestimonialCard1 = (props) => {
           }
           .testimonial-card1-text {
             color: var(--dl-color-gray-500);
+            font-size: 32;
             text-align: center;
+            font-family: 'Noto Sans';
             margin-bottom: var(--dl-space-space-threeunits);
           }
           .testimonial-card1-text1 {
-            font-size: 1.5rem;
+            font-size: 32;
             font-weight: 300;
             margin-bottom: var(--dl-space-space-halfunit);
-          }
-          .testimonial-card1-text2 {
-            color: var(--dl-color-gray-500);
-            font-weight: 600;
-            margin-bottom: var(--dl-space-space-unit);
-            text-transform: uppercase;
           }
           .testimonial-card1-image {
             width: var(--dl-size-size-medium);
@@ -70,15 +65,45 @@ const TestimonialCard1 = (props) => {
             border-radius: var(--dl-radius-radius-round);
           }
 
+          @media (max-width: 1600px) {
+            .testimonial-card1-text {
+              font-size: 28;
+            }
+            .testimonial-card1-text1 {
+              font-size: 30;
+            }
+          }
+          @media (max-width: 1200px) {
+            .testimonial-card1-text {
+              font-size: 26;
+            }
+            .testimonial-card1-text1 {
+              font-size: 28;
+            }
+          }
           @media (max-width: 991px) {
-            .testimonial-card1-text2 {
-              align-self: center;
+            .testimonial-card1-text {
+              font-size: 24;
+            }
+            .testimonial-card1-text1 {
+              font-size: 26;
             }
           }
           @media (max-width: 767px) {
             .testimonial-card1-testimonial-card {
               padding-left: var(--dl-space-space-twounits);
               padding-right: var(--dl-space-space-twounits);
+            }
+            .testimonial-card1-text {
+              font-size: 20;
+            }
+            .testimonial-card1-text1 {
+              font-size: 24;
+            }
+          }
+          @media (max-width: 576px) {
+            .testimonial-card1-text1 {
+              font-size: 22;
             }
           }
           @media (max-width: 479px) {
@@ -97,9 +122,6 @@ const TestimonialCard1 = (props) => {
             .testimonial-card1-text1 {
               margin-bottom: var(--dl-space-space-halfunit);
             }
-            .testimonial-card1-text2 {
-              margin-bottom: var(--dl-space-space-unit);
-            }
           }
         `}
       </style>
@@ -108,23 +130,23 @@ const TestimonialCard1 = (props) => {
 }
 
 TestimonialCard1.defaultProps = {
-  role: 'SOFTWARE ENGINEER',
-  pictureSrc:
-    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&h=1200',
   pictureAlt: 'profile',
-  rootClassName: '',
   name: 'Jane Doe',
   quote:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum.  Nam pellentesque nulla leo, sagittis vehicula sem commodo nec.',
+  role: 'SOFTWARE ENGINEER',
+  rootClassName: '',
+  pictureSrc:
+    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&h=1200',
 }
 
 TestimonialCard1.propTypes = {
-  role: PropTypes.string,
-  pictureSrc: PropTypes.string,
   pictureAlt: PropTypes.string,
-  rootClassName: PropTypes.string,
   name: PropTypes.string,
   quote: PropTypes.string,
+  role: PropTypes.string,
+  rootClassName: PropTypes.string,
+  pictureSrc: PropTypes.string,
 }
 
 export default TestimonialCard1

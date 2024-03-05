@@ -35,6 +35,9 @@ const TestimonialCard43 = (props) => {
             background: #fff;
             box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
             align-items: stretch;
+            border-color: var(--dl-color-gray-black);
+            border-width: 10px;
+            border-radius: 32px;
             flex-direction: column;
             justify-content: flex-start;
           }
@@ -45,7 +48,7 @@ const TestimonialCard43 = (props) => {
           }
           .testimonial-card43-text {
             color: var(--dl-color-gray-500);
-            font-size: 1.15rem;
+            font-size: 26;
             padding-top: var(--dl-space-space-threeunits);
             padding-bottom: var(--dl-space-space-threeunits);
           }
@@ -90,9 +93,22 @@ const TestimonialCard43 = (props) => {
             font-weight: 600;
           }
 
+          @media (max-width: 1600px) {
+            .testimonial-card43-text {
+              font-size: 22;
+            }
+          }
+          @media (max-width: 1200px) {
+            .testimonial-card43-text {
+              font-size: 22px;
+            }
+          }
           @media (max-width: 991px) {
             .testimonial-card43-icon {
               height: var(--dl-size-size-medium);
+            }
+            .testimonial-card43-text {
+              font-size: 18;
             }
             .testimonial-card43-profile {
               padding-left: var(--dl-space-space-halfunit);

@@ -12,7 +12,7 @@ const TestimonialCard23 = (props) => {
           <svg viewBox="0 0 1024 1024" className="testimonial-card23-icon">
             <path d="M225 448c123.712 0 224 100.29 224 224 0 123.712-100.288 224-224 224s-224-100.288-224-224l-1-32c0-247.424 200.576-448 448-448v128c-85.474 0-165.834 33.286-226.274 93.726-11.634 11.636-22.252 24.016-31.83 37.020 11.438-1.8 23.16-2.746 35.104-2.746zM801 448c123.71 0 224 100.29 224 224 0 123.712-100.29 224-224 224s-224-100.288-224-224l-1-32c0-247.424 200.576-448 448-448v128c-85.474 0-165.834 33.286-226.274 93.726-11.636 11.636-22.254 24.016-31.832 37.020 11.44-1.8 23.16-2.746 35.106-2.746z"></path>
           </svg>
-          <span className="testimonial-card23-text">{props.quote}</span>
+          <h2 className="testimonial-card23-text">{props.quote}</h2>
         </div>
         <img
           alt={props.profileAlt}
@@ -30,6 +30,9 @@ const TestimonialCard23 = (props) => {
             background: #fff;
             box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
             align-items: center;
+            border-color: var(--dl-color-gray-black);
+            border-width: 10px;
+            border-radius: 32px;
             justify-content: space-between;
           }
           .testimonial-card23-testimonial {
@@ -60,13 +63,26 @@ const TestimonialCard23 = (props) => {
             align-self: flex-start;
           }
           @media (max-width: 1600px) {
+            .testimonial-card23-testimonial-card {
+              border-color: var(--dl-color-gray-black);
+              border-style: solid;
+              border-width: 10px;
+              border-radius: 32px;
+            }
             .testimonial-card23-text {
               font-size: 24;
             }
           }
           @media (max-width: 1200px) {
             .testimonial-card23-text {
-              font-size: 18;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 700;
+            }
+          }
+          @media (max-width: 991px) {
+            .testimonial-card23-text {
+              font-size: 20px;
             }
           }
           @media (max-width: 767px) {

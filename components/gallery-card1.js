@@ -12,7 +12,6 @@ const GalleryCard1 = (props) => {
           className="gallery-card1-image"
         />
         <h2 className="gallery-card1-text">{props.title}</h2>
-        <span className="gallery-card1-text1">{props.subtitle}</span>
       </div>
       <style jsx>
         {`
@@ -24,7 +23,7 @@ const GalleryCard1 = (props) => {
             justify-content: center;
           }
           .gallery-card1-image {
-            width: 100%;
+            width: 75%;
             height: 100%;
             object-fit: cover;
           }
@@ -33,10 +32,6 @@ const GalleryCard1 = (props) => {
             margin-top: var(--dl-space-space-halfunit);
             font-weight: 600;
             margin-bottom: var(--dl-space-space-halfunit);
-          }
-          .gallery-card1-text1 {
-            color: var(--dl-color-gray-500);
-            align-self: flex-start;
           }
 
           @media (max-width: 767px) {
@@ -61,7 +56,7 @@ GalleryCard1.defaultProps = {
   subtitle: 'Lorem ipsum dolor sit amet',
   imageAlt: 'image',
   imageSrc:
-    'https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxmb3Jlc3R8ZW58MHx8fHwxNjI2MjUxMjg4&ixlib=rb-1.2.1&h=1200',
+    'https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDEyfHxmb3Jlc3R8ZW58MHx8fHwxNjI2MjUxMjg4&ixlib=rb-1.2.1&h=1500',
 }
 
 GalleryCard1.propTypes = {

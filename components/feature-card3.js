@@ -50,16 +50,16 @@ const FeatureCard3 = (props) => {
 }
 
 FeatureCard3.defaultProps = {
+  rootClassName: '',
   title: 'Lorem ipsum',
   action: 'SEE MORE',
-  rootClassName: '',
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
 }
 
 FeatureCard3.propTypes = {
+  rootClassName: PropTypes.string,
   title: PropTypes.string,
   action: PropTypes.string,
-  rootClassName: PropTypes.string,
   description: PropTypes.string,
 }
 

@@ -321,19 +321,20 @@ const GraphicDesign = (props) => {
             <div className="graphic-design-container16">
               <div className="graphic-design-container17">
                 <TestimonialCard23
+                  quote="Adapting to Evolving Trends, Delivering Results that Last"
                   profileSrc="https://images.unsplash.com/photo-1614630982169-e89202c5e045?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDIwfHxtYWxlJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUyMTk4&amp;ixlib=rb-1.2.1&amp;h=1200"
                   rootClassName="rootClassName1"
-                  quote="Adapting to Evolving Trends, Delivering Results that Last"
                 ></TestimonialCard23>
               </div>
               <img
                 alt="image"
-                src="https://play.teleporthq.io/static/svg/default-img.svg"
+                src="https://images.unsplash.com/photo-1563891217861-7924b471afb3?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDJ8fHRyZW5kfGVufDB8fHx8MTcwOTQ4MTY0OHww&amp;ixlib=rb-4.0.3&amp;w=1500"
                 className="graphic-design-image3"
               />
             </div>
             <div className="graphic-design-container18">
               <TestimonialCard43
+                quote="Embracing the dynamic landscape of design, we pride ourselves on our ability to stay ahead of ever-evolving trends. Our commitment goes beyond mere adaptation – we thrive in the creative flux, weaving contemporary elements seamlessly into our work. At the heart of our craft lies a dedication to delivering results that transcend the fleeting nature of trends. Each design is a testament to our enduring commitment to excellence, ensuring that our creations not only meet the current aesthetic standards but stand the test of time. Explore a portfolio where adaptability meets lasting impact, and witness the fusion of innovation and timeless design expertise."
                 pictureSrc="https://images.unsplash.com/photo-1546456073-ea246a7bd25f?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDh8fGJsYWNrJTIwbWFufGVufDB8fHx8MTYyNjQ1MjAwOA&amp;ixlib=rb-1.2.1&amp;h=1200"
                 profileSrc="https://images.unsplash.com/photo-1553184118-d20774c4c1db?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxwb3J0cmFpdCUyMGJ3fGVufDB8fHx8MTYyNjQ1MjI0MA&amp;ixlib=rb-1.2.1&amp;h=1200"
                 rootClassName="rootClassName"
@@ -877,7 +878,7 @@ const GraphicDesign = (props) => {
             display: flex;
             background-size: cover;
             justify-content: center;
-            background-image: url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDIwfHx3ZWIlMjBkZXNpZ258ZW58MHx8fHwxNzA5NTMzNDkwfDA&ixlib=rb-4.0.3&w=1500');
+            background-image: url('https://images.unsplash.com/photo-1517816428104-797678c7cf0c?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHRyZW5kfGVufDB8fHx8MTcwOTQ4MTY0OHww&ixlib=rb-4.0.3&w=1500');
             background-position: center;
           }
           .graphic-design-container15 {
@@ -905,6 +906,7 @@ const GraphicDesign = (props) => {
           }
           .graphic-design-image3 {
             width: 100%;
+            display: none;
             object-fit: cover;
           }
           .graphic-design-container18 {
@@ -996,12 +998,17 @@ const GraphicDesign = (props) => {
               border-width: 10px;
               border-radius: 32px;
             }
+            .graphic-design-testimonial {
+              background-size: cover;
+              background-image: url('https://images.unsplash.com/photo-1517816428104-797678c7cf0c?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHRyZW5kfGVufDB8fHx8MTcwOTQ4MTY0OHww&ixlib=rb-4.0.3&w=1500');
+            }
             .graphic-design-container16 {
               height: 100%;
             }
             .graphic-design-image3 {
               width: 100%;
-              height: 100%;
+              height: 847px;
+              display: none;
             }
           }
           @media (max-width: 1200px) {

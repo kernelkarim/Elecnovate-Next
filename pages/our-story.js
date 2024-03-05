@@ -74,7 +74,7 @@ const OurStory = (props) => {
           </div>
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1525498128493-380d1990a112?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDI0fHxtaW5pbWFsaXNtJTIwZ3JlZW58ZW58MHx8fHwxNjI1ODQxMDcw&amp;ixlib=rb-1.2.1&amp;h=1500"
+            src="https://previews.dropbox.com/p/thumb/ACMRwo_uL0YPwJedMYazAFYd1ZQWojf2RvP_GgPS0aihTjhzaPg5znyrJ7n4yz4CZaeHPldNlMdF5DQrwuzdJDH7BvN9s-Z79AN9hgKkj9fWoTdLVsIgSy9JqFgtetUjSFPDN8GDB4yNhIFY1HbzAlpgb4rzS6CWMyI-eBFW050FQAh7MQj-08V-OcHsIC4iPejLJ_tfD1WqE2zx4xKPYAXkTG2rdgYAbCylEIa7R8KNo9Dch2Cd4i1nWm6A8XLEiPxyVYQ2ABRoA1VVgndIPgW1X6uTbR4MxsnCdBWjnovani3xdhmx0bL7cS92CQWkzUYa6IrAFqOMKVZ5dz8WBWUg/p.png"
             className="our-story-image"
           />
         </div>
@@ -109,6 +109,9 @@ const OurStory = (props) => {
             font-size: 3rem;
             max-width: 450px;
           }
+          .our-story-text01 {
+            font-size: 36;
+          }
           .our-story-btn-group {
             border: 2px dashed rgba(120, 120, 120, 0.4);
             display: flex;
@@ -116,13 +119,15 @@ const OurStory = (props) => {
             flex-direction: row;
           }
           .our-story-image {
-            width: 400px;
+            width: 580px;
+            height: 722px;
             object-fit: cover;
           }
           @media (max-width: 1600px) {
             .our-story-hero {
               width: 100%;
               max-width: 100%;
+              flex-direction: column;
             }
             .our-story-text {
               width: 100%;
@@ -131,6 +136,11 @@ const OurStory = (props) => {
             .our-story-text01 {
               font-size: 30px;
               font-family: Noto Sans;
+            }
+          }
+          @media (max-width: 1200px) {
+            .our-story-hero {
+              flex-direction: row;
             }
           }
           @media (max-width: 991px) {

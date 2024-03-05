@@ -19,10 +19,10 @@ const FeatureCard15 = (props) => {
             width: 100%;
             display: flex;
             padding: var(--dl-space-space-unit);
-            max-width: var(--dl-size-size-maxwidth);
+            max-width: 100%;
             box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
             transition: 0.3s;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: column;
             justify-content: flex-start;
           }
@@ -33,17 +33,10 @@ const FeatureCard15 = (props) => {
             margin-bottom: var(--dl-space-space-twounits);
           }
           .feature-card15-image {
-            width: var(--dl-size-size-medium);
-            height: var(--dl-size-size-medium);
+            width: var(--dl-size-size-xxlarge);
+            height: var(--dl-size-size-xxlarge);
             object-fit: cover;
             border-radius: var(--dl-radius-radius-radius4);
-          }
-
-          @media (max-width: 1200px) {
-            .feature-card15-image {
-              width: 321px;
-              height: 490px;
-            }
           }
         `}
       </style>
@@ -52,18 +45,18 @@ const FeatureCard15 = (props) => {
 }
 
 FeatureCard15.defaultProps = {
-  imageSrc:
-    'https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&ixlib=rb-1.2.1&h=500',
-  title: 'Lorem ipsum',
-  rootClassName: '',
   imageAlt: 'image',
+  rootClassName: '',
+  title: 'Lorem ipsum',
+  imageSrc:
+    'https://images.unsplash.com/photo-1512295767273-ac109ac3acfa?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHllbGxvdyUyMHRlY2h8ZW58MHx8fHwxNjI2MjU1NDk0&ixlib=rb-1.2.1&w=300',
 }
 
 FeatureCard15.propTypes = {
-  imageSrc: PropTypes.string,
-  title: PropTypes.string,
-  rootClassName: PropTypes.string,
   imageAlt: PropTypes.string,
+  rootClassName: PropTypes.string,
+  title: PropTypes.string,
+  imageSrc: PropTypes.string,
 }
 
 export default FeatureCard15
